@@ -1,0 +1,220 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    color: #111111;
+        background-image: url('../img/Design\ sem\ nome.png');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 320px;
+background-image: url('../img/Neon\ Gaming\ Background.png');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* PERFIL */
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* FOTO */
+
+.perfil img{
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 4px solid #3378ad;
+
+    box-shadow:
+    0 0 15px rgba(51,120,173,0.6);
+}
+
+
+/* TEXTO */
+
+.perfil-texto h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+
+    margin-bottom: 5px;
+
+    text-shadow:
+    0 0 10px rgba(51,120,173,0.8);
+}
+
+
+.perfil-texto p{
+    font-size: 1rem;
+    color: #f1f1f1;
+}
+
+
+/* MAIN */
+
+main{
+    width: 100%;
+    min-height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+
+/* SOCIAL LINKS */
+
+.social-links{
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+
+/* CARDS */
+
+.card{
+    width: 260px;
+    height: 75px;
+
+    background: transparent;
+    border: 1px solid #3378ad;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 0 25px;
+
+    text-decoration: none;
+    color: #111111;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+
+/* ÍCONES */
+
+.card i{
+    font-size: 3.8rem;
+    color: #3378ad;
+}
+
+
+/* TEXTO DOS CARDS */
+
+.card span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* HOVER */
+
+.card:hover{
+    transform: translateY(-5px);
+
+    box-shadow:
+    0 0 20px rgba(51,120,173,0.35);
+
+    border: 1px solid #3378ad;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 80px;
+    box-shadow:
+    0 0 25px rgba(0, 0, 0, 0.6);
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer p{
+    color: #3378ad;
+    font-size: 0.95rem;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 600px){
+
+    header{
+        height: 350px;
+    }
+
+
+    .perfil{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .perfil-texto h1{
+        font-size: 2rem;
+    }
+
+
+    .perfil img{
+        width: 210px;
+        height: 210px;
+    }
+
+}
