@@ -103,6 +103,133 @@ main{
 
 /* SOCIAL LINKS */
 
+/* LIVE PIX */
+
+.live-pix {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+
+/* CARD LIVE PIX */
+
+.pix-card {
+    width: 260px;
+    min-height: 75px;
+
+    background: transparent;
+    border: 1px solid #3378ad;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 25px;
+
+    text-decoration: none;
+    color: #111111;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+/* KICK */
+
+.kick-card i {
+    color: #3378ad;
+}
+
+
+/* HOVER KICK */
+
+.kick-card:hover {
+    border-color: #3378ad;
+
+    box-shadow:
+    0 0 20px rgba(43, 17, 65, 0.35);
+}
+
+
+.kick-card:hover i {
+    color: #3378ad;
+}
+
+
+/* ÍCONE */
+
+.pix-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 18px;
+
+    
+    color: #3378ad;
+
+    font-size: 3.8rem;
+
+    margin-right: 15px;
+}
+
+
+/* TEXTO */
+
+.pix-text {
+    flex: 1;
+}
+
+
+.pix-text h2 {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.05rem;
+    font-weight: 600;
+
+    margin-bottom: 2px;
+
+    color: #000000;
+}
+
+
+.pix-text p {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 0.8rem;
+
+    color: #000000;
+}
+
+
+/* SETA */
+
+.pix-arrow {
+    font-size: 0.9rem;
+    color: #3378ad;
+
+    transition: 0.3s ease;
+}
+
+
+/* HOVER */
+
+.pix-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #3378ad;
+
+    box-shadow: 0 0 20px rgba(51, 120, 173, 0.25);
+}
+
+
+.pix-card:hover .pix-arrow {
+    transform: translate(3px, -3px);
+}
+
 .social-links{
     width: 100%;
     max-width: 1200px;
